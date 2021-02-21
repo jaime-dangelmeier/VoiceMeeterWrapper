@@ -108,6 +108,7 @@ namespace VoiceMeeterControl
                 id.ChannelMessageReceived += (ob, e) =>
                 {
                     var m = e.Message;
+                    Console.WriteLine(m.Data1);
                     if (m.MessageType == MessageType.Channel && m.Command == ChannelCommand.Controller)
                     {
                         if (inputMap.ContainsKey(m.Data1))

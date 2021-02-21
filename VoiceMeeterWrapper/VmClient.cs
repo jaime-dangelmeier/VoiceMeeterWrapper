@@ -50,6 +50,7 @@ namespace VoiceMeeterWrapper
         {
             VoiceMeeterRemote.SetParameter(n, v);
         }
+
         public bool Poll()
         {
             return VoiceMeeterRemote.IsParametersDirty() == 1;

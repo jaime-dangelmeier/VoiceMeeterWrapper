@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceMeeterWrapper", "VoiceMeeterWrapper\VoiceMeeterWrapper.csproj", "{D9C0F0D7-1A04-45DC-8115-9C31946417D4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceMeeterControl", "VoiceMeeterControl\VoiceMeeterControl.csproj", "{6FA751E5-EDE3-4EDA-A337-E2AA8FA035DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceMeeterControlXTouch", "VoiceMeeterControlXTouch\VoiceMeeterControlXTouch.csproj", "{D5830A6F-5ABF-474C-9734-3B5081975D21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{6FA751E5-EDE3-4EDA-A337-E2AA8FA035DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FA751E5-EDE3-4EDA-A337-E2AA8FA035DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FA751E5-EDE3-4EDA-A337-E2AA8FA035DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5830A6F-5ABF-474C-9734-3B5081975D21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5830A6F-5ABF-474C-9734-3B5081975D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5830A6F-5ABF-474C-9734-3B5081975D21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5830A6F-5ABF-474C-9734-3B5081975D21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BB3F7F7-BE52-46B1-9E7D-15719230BDAC}
 	EndGlobalSection
 EndGlobal
